@@ -5,6 +5,24 @@
 
 .thumbnail-row{
     margin-bottom:7px;
+    position:relative;
+}
+
+.video-duration{
+    background-color:rgba(0,0,0,0.6);
+    color:white;
+    border-radius:4px;
+    position:absolute;
+    bottom:10px;
+    right:6px;
+    font-family:Roboto, Arial;
+    font-size:12px;
+    font-weight:500;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+
 }
 
 .profile-picture{
@@ -42,4 +60,16 @@
 
 .video-preview:hover{
     cursor:pointer;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:visited{
+    color:inherit;
+}
+
+.video-title .video-author, .video-stats{
+    text-decoration:none;
 }
