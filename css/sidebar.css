@@ -22,6 +22,32 @@
     cursor:pointer;
 }
 
+@media (min-width:1300px){
+    .sidebar{
+        width:230px;
+    }
+    body{
+        padding-left:250px;
+    }
+    .sidebar-link{
+        flex-direction:row;
+        justify-content:start;
+        padding-left:20px;
+        height:45px;
+    }
+    .hamburger-menu{
+        margin-left:20px;
+        margin-right:20px;
+    }
+    .sidebar-link img{
+        margin-right:20px;
+    }
+    .sidebar-link div{
+        font-size:14px;
+        font-weight:400;
+    }
+}
+
 .sidebar-link img{
     height:30px;
 }
