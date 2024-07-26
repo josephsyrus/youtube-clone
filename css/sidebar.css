@@ -22,6 +22,10 @@
     cursor:pointer;
 }
 
+.sidebar-link img{
+    height:30px;
+}
+
 @media (min-width:1300px){
     .sidebar{
         width:230px;
@@ -48,6 +52,18 @@
     }
 }
 
-.sidebar-link img{
-    height:30px;
+@media (max-width:500px){
+    .sidebar,
+    .hamburger-menu,
+    .create-button,
+    .apps-button{
+        display:none;
+    }
+    .youtube-logo{
+        margin-left:20px;
+    }
+    body{
+        padding-left:20px;
+    }
+
 }
